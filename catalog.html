@@ -66,14 +66,14 @@
         </fieldset>
         <fieldset>
         <legend>Группы товаров:</legend>
-          <input type="radio" value="Бритвенные принадлежности" id="shaving_accessories">
+          <input type="radio" value="Бритвенные принадлежности" name="item-group" id="shaving_accessories">
           <label for="shaving_accessories">Бритвенные принадлежности</label>
-          <input type="radio" value="Средства для ухода" id="care_funds" checked>
+          <input type="radio" value="Средства для ухода" name="item-group" id="care_funds" checked>
           <label for="care_funds">Средства для ухода</label>
-          <input type="radio" value="Аксессуары" id="accessories">
+          <input type="radio" value="Аксессуары" name="item-group" id="accessories">
           <label for="care_funds">Аксессуары</label>
         </fieldset>
-        <button type="submit" value="Показать">
+        <button type="submit" value="Показать">Показать</button>
       </form>
     </aside>
     <div class="catalog">
@@ -141,7 +141,7 @@
         <li>
           <a href="#">1</a>
         </li>
-        <li>
+        <li class="pagnition-active">
           2
         </li>
         <li>
